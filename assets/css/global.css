@@ -1,6 +1,18 @@
 :root {
+  /* Cores de fundo */
   --bg-c12: #ffeb00;
-  --bg-c6: #ffffff;
+  --bg-c11: #5595d1;
+  --bg-c10: #e9e9e9;
+  --bg-c9: #ffffff;
+
+  /* Cores para fonte */
+  --c1: #ffeb00;
+  --c2: #5595d1;
+  --c3: #222221;
+  --c4: #59595b;
+  --c5: #858585;
+  --c6: #a9a9a9;
+  --c7: #ffffff;
 }
 body {
   font-family: "Poppins", sans-serif;

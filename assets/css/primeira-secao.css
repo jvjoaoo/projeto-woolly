@@ -16,7 +16,7 @@
 .container__secao p {
   padding: 70px 40px;
   max-width: 600px;
-  color: #59595b;
+  color: var(--c4);
   font-size: 24px;
 }
 
@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .primeira__secao {
-    background-color: var(--bg-c6);
+    background-color: var(--bg-c9);
   }
   .container__secao {
     align-items: center;
@@ -45,8 +45,6 @@
 @media (max-width: 480px) {
   .container__secao p {
     padding: 0px 40px 30px;
-    max-width: 600px;
-    color: #59595b;
     font-size: 16px;
   }
   .container__secao img {
