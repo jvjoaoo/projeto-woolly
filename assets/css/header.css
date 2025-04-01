@@ -1,5 +1,5 @@
 .container__banner {
-  background-image: url(/assets/images/plano-de-fundo-banner.jpg);
+  background-image: url(../images/plano-de-fundo-banner.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 1140px;
