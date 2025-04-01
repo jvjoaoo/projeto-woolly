@@ -93,6 +93,9 @@ p {
     font-size: 24px;
   }
   @media (max-width: 480px) {
+    .segunda__secao {
+      padding: 3rem;
+    }
     .segunda__secao h2 {
       font-size: 24px;
     }
