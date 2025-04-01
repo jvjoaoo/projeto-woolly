@@ -1,0 +1,11 @@
+.rodape {
+  background-color: var(--bg-c9);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.rodape p {
+  font-size: 24px;
+  color: var(--c5);
+}

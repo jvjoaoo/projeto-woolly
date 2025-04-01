@@ -45,7 +45,11 @@
   width: 337px;
   padding: 0px 40px;
 }
-
+@media (max-width: 1440) {
+  .container__banner {
+    height: 782px;
+  }
+}
 @media (max-width: 1366px) {
   .container__banner {
     height: 733px;

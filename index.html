@@ -18,9 +18,15 @@
     />
 
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
     <script src="assets/js/main.js" defer></script>
   </head>
   <body>
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
     <header>
       <div class="container__banner">
         <div class="banner__title forma__paralelogramo">
@@ -63,7 +69,7 @@
           >
           </iframe>
         </div>
-        <a href="#"
+        <a href="#formulario"
           ><img src="./assets/images/black-arrow-icone.svg" alt="" />Fale
           conosco</a
         >
@@ -78,7 +84,7 @@
         </p>
       </div>
     </section>
-    <section class="quarta__secao">
+    <section class="quarta__secao" id="formulario">
       <div class="quarta__secao-container">
         <div class="left__content">
           <h2>
@@ -92,20 +98,20 @@
         </div>
         <div class="right__content">
           <form>
-            <label>Nome Completo*</label>
-            <input type="text" />
+            <label for="nome">Nome Completo*</label>
+            <input id="nome" type="text" name="name" required />
 
-            <label>CNPJ*</label>
-            <input type="text" />
+            <label for="cnpj">CNPJ*</label>
+            <input id="cnpj" type="text" required />
 
-            <label>E-mail*</label>
-            <input type="email" />
+            <label for="email">E-mail*</label>
+            <input id="email" name="email" type="email" required />
 
-            <label>Telefone*</label>
-            <input type="text" />
+            <label for="telefone">Telefone*</label>
+            <input id="telefone" name="telefone" type="text" required />
 
-            <label>Empresa*</label>
-            <input type="text" />
+            <label for="empresa">Empresa*</label>
+            <input id="empresa" name="empresa" type="text" required />
 
             <button type="submit">
               <img src="./assets/images/arrow-yellow.svg" alt="" />Entre em
@@ -115,5 +121,9 @@
         </div>
       </div>
     </section>
+
+    <footer class="rodape">
+      <p>© 2025 - Teste Woolly</p>
+    </footer>
   </body>
 </html>
