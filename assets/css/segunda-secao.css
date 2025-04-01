@@ -18,7 +18,7 @@ p {
 }
 
 .segunda__secao p {
-  color: var(--c7);
+  color: var(--c8);
   font-size: 32px;
   margin: 30px 0;
 }
@@ -31,6 +31,22 @@ p {
 .phone img {
   width: 30px;
   margin-right: 10px;
+}
+
+.player-container {
+  width: 925px;
+  height: 495px;
+  margin: 80px auto;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.player-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
 }
 
 .segunda__secao a {
@@ -50,22 +66,6 @@ p {
 .segunda__secao a img {
   width: 20px;
   margin-right: 10px;
-}
-
-.player-container {
-  width: 925px;
-  height: 495px;
-  margin: 80px auto;
-  border-radius: 20px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-}
-
-.player-container iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 20px;
 }
 
 @media (max-width: 768px) {
@@ -111,6 +111,17 @@ p {
       width: 400px;
       height: 300px;
       margin: 30px auto;
+    }
+
+    .segunda__secao a {
+      width: 300px;
+      padding: 10px;
+      margin: 0 auto;
+      font-size: 24px;
+    }
+    .segunda__secao a img {
+      width: 15px;
+      margin-right: 10px;
     }
   }
 }
