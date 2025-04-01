@@ -73,6 +73,48 @@
   margin-right: 10px;
 }
 
+@media (max-width: 1024px) {
+  .quarta__secao-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    margin: 100px 0;
+  }
+  .left__content {
+    padding-right: 0px;
+  }
+  .right__content {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .quarta__secao-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    max-width: 550px;
+  }
+  .left__content {
+    padding-right: 0;
+  }
+  .left__content h2 {
+    font-size: 32px;
+  }
+  .right__content {
+    margin-left: 0;
+  }
+  .right__content form input {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .right__content form button {
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 25px;
+  }
+}
+
 @media (max-width: 480px) {
   .quarta__secao-container {
     display: flex;
