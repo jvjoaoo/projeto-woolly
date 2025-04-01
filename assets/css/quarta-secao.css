@@ -132,6 +132,7 @@
   .right__content {
     width: 548px;
     margin-left: 0px;
+    padding: 10px;
   }
 
   .right__content form {
