@@ -92,4 +92,22 @@ p {
     width: 300px;
     font-size: 24px;
   }
+  @media (max-width: 480px) {
+    .segunda__secao h2 {
+      font-size: 24px;
+    }
+    .segunda__secao h2,
+    p {
+      width: 400px;
+    }
+    .segunda__secao p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .player-container {
+      width: 400px;
+      height: 300px;
+      margin: 30px auto;
+    }
+  }
 }
