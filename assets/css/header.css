@@ -2,11 +2,7 @@
   background-image: url(../images/plano-de-fundo-banner.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-<<<<<<< HEAD
   height: 1034px;
-=======
-  height: 1032px;
->>>>>>> 8d836a9 (Aplicação de variáveis de CSS e ajustes na landing page)
 }
 
 .banner__title {
