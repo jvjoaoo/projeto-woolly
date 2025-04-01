@@ -78,11 +78,16 @@
 }
 
 @media (max-width: 768px) {
+  .container__banner {
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+  }
   .banner__title {
     width: 400px;
     height: auto;
     margin-top: 0;
-    padding: 50px;
+    padding: 40px;
     position: inherit;
     border-radius: inherit;
     clip-path: inherit;
@@ -92,7 +97,7 @@
 @media (max-width: 480px) {
   .container__banner {
     background-image: none;
-    height: 500px;
+    height: auto;
   }
   .banner__title {
     width: 100%;
