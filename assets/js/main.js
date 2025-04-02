@@ -1,8 +1,10 @@
+/* Mascará de formatação para formulário */
 $(document).ready(function () {
   $("#cnpj").mask("00.000.000/0000-00")
   $("#telefone").mask("(00) 00000-0000")
 })
 
+/* Animação de pré-carregamento do site */
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(() => {
     document.getElementById("preloader").style.display = "none"
